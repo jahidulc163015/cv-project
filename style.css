@@ -1,0 +1,295 @@
+/*Home start*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'roboto',sans-serif;
+    color: rgb(68, 238, 139);
+
+}
+
+header{
+    background-color: seagreen;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+img{
+    border-radius: 50%;
+    background-color: rgb(0,0,0,0,0.3);
+    padding: 10px;
+   
+}
+.navbar{
+    padding: 3%  5%;
+    
+   
+
+}
+.navbar-icon{
+    color: tomato;
+    height: 50px;
+    padding: 4% 10%;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 4s;
+    
+
+}
+.nav-link:hover{
+    background:#2980b9 ;
+    color: white;
+    transform: scale(1,2);
+    text-decoration: underline;
+
+
+}
+.navar-brand{
+    width: 60px;
+    height: 100vh;
+
+}
+
+
+.banner-container{
+    height: 100vh;
+
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgb(7,101,189,0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee','cursive';
+    border-radius: 5px;
+
+
+}
+/*Home end*/
+
+
+
+/*feature start*/
+
+#feature{
+    padding: 5% 10%;
+    background: #e8e8ded2 ;
+   
+    
+}
+
+.features-col{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0;
+    transition: 0.4s;
+    background-color: salmon;
+}
+
+
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black ;
+
+}
+.small{
+    color: springgreen;
+
+}
+.icon-style{
+    background: #bb0aac;
+    color: white;
+    padding: 20px;
+    margin: 5px 0;
+    border-radius: 50%;
+    
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+    text-emphasis-color: red;
+    
+}
+
+.para{
+    color: red
+}
+/*feature end*/
+
+/*about me start*/
+
+#about-me{
+    padding: 4% 10%;
+    background: #2980b9;
+
+}
+
+#about-me p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: light;
+}
+
+
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    text-decoration: underline;
+
+
+
+}
+
+/*about end*/
+
+/*skill start*/
+
+.star i{
+    width: 20px;
+    color: rebeccapurple
+    
+}
+
+#skill{
+    padding: 4% 10%;
+    background: #267;
+    margin-top: 4px;
+
+}
+/*skills end*/
+
+/*tuorial start*/
+#tutorial{
+    padding: 4% 10%;
+    background: #267;
+    margin-top: 4px;
+
+}
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0;
+
+
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black ;
+
+}
+/*tuorial end*/
+
+
+
+
+/*feedback start*/
+#feedback{
+    padding: 4% 10%;
+    background: #267;
+    margin-top: 4px;
+}
+
+
+.feedback-img{
+    width: 120px;
+    margin-bottom: 5px;
+    
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+
+}
+
+/*feedback end*/
+
+
+/*contact start*/
+#contact{
+    padding: 4% 10%;
+    background: #267;
+    margin-top: 4px;
+
+}
+
+.form-group{
+    width: 20px;
+}
+.btn {
+   
+    margin-bottom: 5px;
+    border-radius: 30%;
+    
+   
+    
+}
+.btn2{
+    width: 85px;;
+    border-radius: 30%;
+    margin-right: auto;
+}
+
+
+/*contact end*/
+
+footer{
+    padding: 5% 10%;
+    background: #267;
+    margin-top: 4px;
+    
+    
+}
+
+
+footer a{
+    color: white;
+    margin-bottom: 3px 10px;
+}
+
+
+footer a:hover{
+    color: black;
+}
+
+@media(max-width:768px){
+    .nav-link{
+        background: rgb(0,0,0,0,0.7);
+
+
+    }
+    .banner-container h1{
+        font: size 2.5em; ;
+    }
+}
+
+
+
+
+
+
+
+
+  
+
+
